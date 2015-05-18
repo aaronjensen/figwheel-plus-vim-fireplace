@@ -8,6 +8,8 @@
 
 ;; -- Subscription handlers and registration  ---------------------------------
 
+; Change this number while figwheel is running.
+; It won't update unless you var-quote dinner.views/dinner-app
 (defn number [db]
-  (reaction 2))
+  (reaction 3))
 (register-sub :number number)

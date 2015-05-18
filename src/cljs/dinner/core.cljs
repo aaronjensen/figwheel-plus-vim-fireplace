@@ -19,6 +19,8 @@
 
 (defn mount-root
   []
+  ; var-quote here to fix reload: #'dinner.views/dinner-app
+  ; You'll need to refresh after adding the var-quote
   (reagent/render [dinner.views/dinner-app] (.getElementById js/document "app")))
 
 ;; -- Initialize app ----------------------------------------------------------
