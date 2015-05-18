@@ -1,3 +1,7 @@
+This serves as a reproduction for https://github.com/Day8/re-frame/issues/60
+
+It is also an example of how to get vim-fireplace working with figwheel.
+
 ## Getting Started
 
 1. Run
